@@ -16,7 +16,8 @@ body {
     background: #fff;
     padding: 10px 20px; }
   .control-panel button:hover {
-    background: #ddd; }
+    background: #333;
+    color: #fff; }
   .control-panel button:active {
     background: #000;
     color: #fff; }
