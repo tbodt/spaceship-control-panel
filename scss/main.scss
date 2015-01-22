@@ -19,12 +19,12 @@ h1 {
         font-size: 24px;
         
         border-radius: 12px;
-        background: linear-gradient(to top left, blue, white);
+        background: linear-gradient(to top left, rgba(0, 100, 255, 0.6), white);
 
         padding: 10px 20px;
 
         &:active, &:hover {
-            background: linear-gradient(to top left, white, blue);
+            background: linear-gradient(to top left, white, rgba(0, 100, 255, 0.6));
             color: #fff;
         }
     }
