@@ -20,7 +20,7 @@ body {
 
         padding: 10px 20px;
         
-        &:active {
+        &:active, &:hover {
             background: linear-gradient(to top left, white, blue);
             color: #fff;
         }

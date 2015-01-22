@@ -14,7 +14,7 @@ body {
     border-radius: 12px;
     background: linear-gradient(to top left, blue, white);
     padding: 10px 20px; }
-    .control-panel button:active {
+    .control-panel button:active, .control-panel button:hover {
       background: linear-gradient(to top left, white, blue);
       color: #fff; }
 
