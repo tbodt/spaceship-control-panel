@@ -8,6 +8,9 @@ body {
   height: 768px;
   margin-top: 10px;
   background: url("../img/brushed-metal.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover; }
 
 .control-panel button {
