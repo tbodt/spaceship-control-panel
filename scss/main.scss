@@ -1,6 +1,8 @@
 // My SCSS.
-$hologram-blue: #0cf;
-$hologram-white: #fff;
+$hologram-blue: rgba(0, 192, 255, 1);
+$hologram-blue-bg: rgba(0, 192, 255, 0.8);
+$hologram-white: rgba(255, 255, 255, 1);
+$hologram-white-bg: rgba(255, 255, 255, 0.8);
 
 html {
     font-family: Helvetica, sans-serif;
@@ -20,17 +22,20 @@ h1 {
         font-family: Helvetica, sans-serif;
         font-weight: bold;
         font-size: 24px;
-        
+
         border: 0px none;
         border-radius: 12px;
-        background: linear-gradient(to top left, $hologram-blue, $hologram-white);
-        box-shadow: 0px 0px 5px 5px #777;
+        background: $hologram-blue-bg;
+        color: $hologram-white;
+        box-shadow: 0px 0px 10px 4px $hologram-blue;
 
         padding: 10px 20px;
         margin: 10px;
 
         &:active, &:hover {
-            background: linear-gradient(to top left, $hologram-white, $hologram-blue);
+            background: $hologram-white-bg;
+            color: $hologram-blue;
+            box-shadow: 1px 1px 10px 4px $hologram-white;
         }
     }
 }
