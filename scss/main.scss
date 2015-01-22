@@ -1,4 +1,14 @@
 // My SCSS.
+html {
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+h1 {
+    margin: 10px;
+}
+
 .control-panel {
     width: 1024px;
     height: 768px;
@@ -7,12 +17,12 @@
         font-family: Helvetica, sans-serif;
         font-weight: bold;
         font-size: 24px;
-
+        
         border-radius: 12px;
         background: linear-gradient(to top left, blue, white);
 
         padding: 10px 20px;
-        
+
         &:active, &:hover {
             background: linear-gradient(to top left, white, blue);
             color: #fff;

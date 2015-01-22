@@ -3,7 +3,9 @@ var extraButtons = [
     "Self-Destruct and Regret It",
     "Activate AI",
     "Deactivate AI",
-    "Roll Credits"
+    "Roll Credits",
+    "Do Not Press This Button",
+    "Make a Sandwich"
 ];
 var extraButtonsIndex = 0;
 
