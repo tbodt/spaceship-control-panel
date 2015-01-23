@@ -9,6 +9,7 @@ body {
   margin-top: 20px;
   background-image: url("../img/techy-green.jpg");
   background-position: center;
+  background-repeat: no-repeat;
   background-size: cover; }
 
 .control-panel button {
