@@ -7,7 +7,8 @@ body {
   width: 1024px;
   height: 768px;
   margin-top: 20px;
-  background-image: url("../img/brushed-metal.jpg");
+  background-image: url("../img/techy-green.jpg");
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
 
