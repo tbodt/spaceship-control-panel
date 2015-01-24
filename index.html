@@ -5,26 +5,34 @@
         <meta name="apple-mobile-web-app-capable" content="yes">
         <meta name="apple-mobile-web-app-status-bar-style" content="black">
         <link rel="stylesheet" type="text/css" href="css/main.css">
+        <link rel="stylesheet" type="text/css" href="css/vendor/rangeslider.css">
         <script type="text/javascript" src="js/vendor/jquery-1.9.1.min.js"></script>
+        <script type="text/javascript" src="js/vendor/rangeslider.min.js"></script>
         <script type="text/javascript" src="js/main.js"></script>
     </head>
     <body>
         <div class="control-panel">
-            <button type="button">Take Off</button>
-            <button type="button">Land</button>
-            <button type="button">Move Up</button>
-            <button type="button">Move Down</button>
-            <button type="button">Move Left</button>
-            <button type="button">Move Right</button>
-            <button type="button">Move Forward</button>
-            <button type="button">Move Backward</button>
-            <button type="button">Go Home</button>
-            <button type="button">Select Rocket</button>
-            <button type="button">Select Nuke</button>
-            <button type="button">Select H-bomb</button>
-            <button type="button">Fire Weapon</button>
+            <div class="buttons">
+                <button type="button">Take Off</button>
+                <button type="button">Land</button>
+                <button type="button">Move Up</button>
+                <button type="button">Move Down</button>
+                <button type="button">Move Left</button>
+                <button type="button">Move Right</button>
+                <button type="button">Move Forward</button>
+                <button type="button">Move Backward</button>
+                <button type="button">Go Home</button>
+                <button type="button">Select Rocket</button>
+                <button type="button">Select Nuke</button>
+                <button type="button">Select H-bomb</button>
+                <button type="button">Fire Weapon</button>
+                <button type="button" id="add">Add a Button</button>
+            </div>
 
-            <button type="button" id="add">Add a Button</button>
+            <div class="throttle">
+                <label for="throttle">Throttle</label>
+                <input type="range" min="0"  max="1000" step="1" id="throttle">
+            </div>
         </div>
     </body>
 </html>
